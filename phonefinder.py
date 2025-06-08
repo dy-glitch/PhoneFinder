@@ -4,8 +4,8 @@ from urllib.parse import quote  # For URL encoding
 from geopy.geocoders import Nominatim  # For simulating GPS
 
 # Embedded API Keys
-NUMVERIFY_API_KEY = "0d465ca52e640dd05ea81742214a1e5b"  # Replace with your NumVerify API key
-OPENCAGE_API_KEY = "bdf1e42ff2604a99bf9b22e68c464bf2"  # Replace with your OpenCage API key
+NUMVERIFY_API_KEY = ""  # Replace with your NumVerify API key
+OPENCAGE_API_KEY = ""  # Replace with your OpenCage API key
 
 # Function to generate rainbow-colored text (red, yellow, green)
 def rainbow_text(text):
